@@ -1,4 +1,4 @@
-# CS5265-tyslas-nfl-spread-line-outcomes
+# CS5262-tyslas-nfl-spread-line-outcomes
 
 #### Performance Metrics
 For this project I will use Precision as my main performance metric to determine the value of the model.
