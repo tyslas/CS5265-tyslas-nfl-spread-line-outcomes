@@ -22,3 +22,6 @@ After examining Precision, I will evaluate the Profitability of the model
   - I will attempt to do this by calculating the net profit or return on investment (ROI) based on the betting each of the above strategies
     - This will require considering stake size and bet frequency
 
+# Comments/Feedback from Derius
+Recommend adding header # References section
+Recommand adding link https://www.kaggle.com/datasets/tobycrabtree/nfl-scores-and-betting-data to references
