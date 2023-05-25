@@ -1,6 +1,6 @@
 # CS5262-tyslas-nfl-spread-line-outcomes
 
-#### Performance Metrics
+## Performance Metrics
 For this project I will use Precision as my main performance metric to determine the value of the model.
 I will calculate this with the following formula:
 
@@ -22,6 +22,5 @@ After examining Precision, I will evaluate the Profitability of the model
   - I will attempt to do this by calculating the net profit or return on investment (ROI) based on the betting each of the above strategies
     - This will require considering stake size and bet frequency
 
-# Comments/Feedback from Derius
-Recommend adding header # References section
-Recommand adding link https://www.kaggle.com/datasets/tobycrabtree/nfl-scores-and-betting-data to references
+## References
+NFL Betting dataset found via [Kaggle](https://www.kaggle.com/datasets/tobycrabtree/nfl-scores-and-betting-data)
