@@ -1,17 +1,18 @@
 Feature, Description
 schedule_date, Date that the game took place. This column is a date in the format MM/DD/YYYY
 schedule_season, Year of the season began. NFL seasons start in the fall and end before the spring of the following year. So the 2023 season will refer to the years 2023-2024. This column is a number in the format YYYY
-schedule_week, Week of the NFL season. This column is either a number during regular season weeks or a string in playoff weeks
+schedule_week, Week of the NFL season. This column is either a number during regular season weeks or a string in playoff weeks. For the purposes of this project the playoff weeks will be converted to numbers and the schedule_playoff column will be used to determine whether the week is a playoff game or not
 schedule_playoff, This column is a boolean. FALSE is regular season and TRUE is playoffs
 team_home, Name of the home team. This column is a string
 score_home, Points scored by the home team. This column is a number
 score_away, Points scored by the away team. This column is a number
 team_away, Name of the away team. This column is a string
-team_favorite_id, Acronym of the team that was determined most likely to win by the betting market. It is either two or three letters
+team_favorite_id, Acronym of the team that was determined most likely to win by the betting market. It is either two or three letters. For the purposes of this project this column will be changed to be either the team_home or team_away name
+team_home_favorite, this will represent the encoded team_favorite_id - if team_home is favored this column will be marked as a 1 - if it's a zero then we know that team_away is favored
 spread_favorite, The number of points that the favored team needs to win by for a bet placed on the spread of the favorite to win. This column will either be a negative number or zero
 over_under_line, The number of points that both teams combined need to score for a bet placed on the 'line' to win. This column is a positive number
 stadium, Name of the venue that the game is played
-stadium_neutral, This column is a boolean. FALSE is not a neutral venue and TRUE is a neutral venue
+stadium_neutral, This column is a boolean. FALSE is not a neutral venue and TRUE is a neutral venue - for the purposes of this project this column will be one hot encoded with a neutral venue being marked as a 1 and non-neutral marked as a 0
 weather_temperature, The temperature in Fahrenheit at the venue where the game is played. This column is a number
 weather_wind_mph, The speed of wind in miles per hour. This column is a number
 weather_humidity, The measurement of water vapor in the air during the game measured as a percentage. This column is a number
